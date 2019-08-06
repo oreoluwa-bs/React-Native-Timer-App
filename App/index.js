@@ -89,11 +89,11 @@ const AVAILABLE_SECONDS = createArray(60);
 
 class App extends React.Component {
   state = {
-    remainingSeconds: 12400,
+    remainingSeconds: 1,
     isRunning: false,
     selectedHours: '0',
     selectedMinutes: '0',
-    selectedSeconds: '5',
+    selectedSeconds: '0',
   }
 
   componentDidMount(prevProp, prevState) {
